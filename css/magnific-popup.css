@@ -301,6 +301,9 @@ img.mfp-img {
   /**
        * Remove all paddings around the image on small screen
        */
+  .hidda {
+    margin-bottom: 8%;
+  }
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0; }

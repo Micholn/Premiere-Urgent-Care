@@ -681,7 +681,15 @@
 @media (max-width: 767px) {
 .header-menu-area {
 	padding-top: 15px;
+	padding-left: 5%;
+	margin-bottom: -25%;
 }
+.mobile-menu{ 
+  margin-top: -35% !important;
+  margin-bottom: -20%;
+}
+
+   
 .header-menu-area.header-menu-blue {
 	padding: 25px 0;
 	background: 0;
@@ -1322,6 +1330,23 @@
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header-menu-area {
+		padding-top: 15px;
+		padding-left: 5%;
+		margin-bottom: -25%;
+	}
+	.mobile-menu{ 
+	  margin-top: -35% !important;
+	  margin-bottom: -20%;
+	}
+
+.header-menu-area {
+	padding-top: 15px;
+	padding-left: 5%;
+	}
+.header__menu{
+	margin-top: -50%;
+}
 .btn.gray-btn-border {
 	padding: 23px 60px;
 }
